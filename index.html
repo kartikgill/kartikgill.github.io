@@ -106,16 +106,51 @@
               </a>
               <br>
               <strong>Kartik Chaudhary</strong>,  <br>
-              <a href="https://scholar.google.com/citations?user=3oLGqC0AAAAJ&hl=en">Raghav Bali/a>, 
+              <a href="https://scholar.google.com/citations?user=3oLGqC0AAAAJ&hl=en">Raghav Bali</a>, 
               <br>
               <em>Arxiv</em>, 2022  
               <br>
 							<a href="https://arxiv.org/pdf/2205.14879.pdf">arXiv</a> /
-							<a href="https://github.com/kartikgill/Easter2">code</a> /
+							<a href="https://github.com/kartikgill/Easter2">code</a> 
               <p></p>
               <p>Easter2.0 is a small/fast convolutional model for the task of OCR/HTR that works well even when labelled data is limited.</p>
             </td>
           </tr>
+
+
+          <tr>
+            <td width="30%" valign="top"><a href="assets/nnclr.png"><img src="assets/nnclr.png" width="100%" style="border-style: none"></a>
+            </td><td width="70%" valign="top">
+              <p><a href="https://arxiv.org/abs/2104.14548" id="NNCLR">
+                <heading>With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations</heading></a><br>
+                <b>Debidatta Dwibedi</b>, <a href="https://people.csail.mit.edu/yusuf/">Yusuf Aytar</a>, <a href="https://cims.nyu.edu/~tompson/">Jonathan Tompson</a>, <a href="https://sermanet.github.io/home/">Pierre Sermanet</a>, <a href="https://www.robots.ox.ac.uk/~az/">Andrew Zisserman</a> <br>
+                <em><a href="https://iccv2021.thecvf.com/home">International Conference on Computer Vision (ICCV) 2021 </a></em>
+                <br>
+                <br>
+                Improve contrastive losses used in self-supervised learning with nearest-neighbors.<br>
+
+              </p>
+
+              <div class="paper" id="nnclr">
+                <a href="https://arxiv.org/abs/2104.14548">paper</a> |
+                <a href="javascript:toggleblock(&#39;nnclr_abs&#39;)">abstract</a> |
+                <a shape="rect" href="javascript:togglebib(&#39;nnclr&#39;)" class="togglebib">bibtex</a>
+
+                <p align="justify"> <i id="nnclr_abs" style="display: none;"> Self-supervised learning algorithms based on instance discrimination train encoders to be invariant to pre-defined transformations of the same instance. While most methods treat different views of the same image as positives for a contrastive loss, we are interested in using positives from other instances in the dataset. Our method, Nearest-Neighbor Contrastive Learning of visual Representations (NNCLR), samples the nearest neighbors from the dataset in the latent space, and treats them as positives. This provides more semantic variations than pre-defined transformations. We find that using the nearest-neighbor as positive in contrastive losses improves performance significantly on ImageNet classification, from 71.7% to 75.6%, outperforming previous state-of-the-art methods. On semi-supervised learning benchmarks we improve performance significantly when only 1% ImageNet labels are available, from 53.8% to 56.5%. On transfer learning benchmarks our method outperforms state-of-the-art methods (including supervised learning with ImageNet) on 8 out of 12 downstream datasets. Furthermore, we demonstrate empirically that our method is less reliant on complex data augmentations. We see a relative reduction of only 2.1% ImageNet Top-1 accuracy when we train using only random crops.</i></p>
+
+                <div style="white-space: pre-wrap; display: none;" class="bib">
+                @InProceedings{Dwibedi_2021_ICCV,
+                    author    = {Dwibedi, Debidatta and Aytar, Yusuf and Tompson, Jonathan and Sermanet, Pierre and Zisserman, Andrew},
+                    title     = {With a Little Help From My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations},
+                    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+                    month     = {October},
+                    year      = {2021},
+                    pages     = {9588-9597}
+                }
+             </div>
+           </div>
+         </td>
+       </tr>
 
 
   <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
